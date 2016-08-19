@@ -1,0 +1,152 @@
+/*#description{*/
+    /*position: relative;*/
+    /*float:right;*/
+    /*width: 60%;*/
+/*}*/
+
+#regionName{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+#organs{
+    float:left;
+}
+
+.organName{
+    display: block;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.regionText{
+    width: 80%;
+}
+
+#manipulation-textarea{
+    width: 100%;
+}
+
+#operation-textarea{
+    width: 100%;
+}
+
+.basic-table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.basic-table{
+    text-align: center;
+}
+
+.border-container{
+    border:1px solid red;
+}
+.border-row{
+    border:1px solid blue;
+}
+.head-row{
+    background-image: linear-gradient(#0D85BF , #daf2fe);
+    text-align:center;
+}
+.menu-row{
+    text-align:center;
+    height:30px;
+}
+
+.avtorisation{
+    text-align: center;
+}
+.top-menu{
+    background:#daf2fe;
+}
+.top-menu ul{
+    padding-left:0;
+    margin-bottom:0;
+}
+.top-menu li{
+    padding:3px 10px;
+    text-align: center;
+}
+
+.name{
+    font-family: Segoe Script;
+    font-size: 30pt;
+    padding-top: 30px;
+}
+
+.emblem{
+    padding-top: 10px;
+}
+
+.content{
+    padding: 20px 30px 50px;
+    background-image: linear-gradient(#daf2fe , #FFFFFF);
+}
+
+.regionName{
+    list-style-type: none;
+}
+
+.regionName:hover{
+    color:#337ab7;
+    border:1px solid;
+}
+
+#pacient-label{
+    text-align: center;
+}
+
+.term-item{
+    list-style-type: none;
+}
+
+.top-border{
+    border-top: 1px solid #286090;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.Navigation li ul{
+    list-style-type: none;
+    display: none;
+}
+.Navigation li ul li {
+    text-align: left;
+}
+
+.Navigation li{
+    list-style-type: none;
+}
+
+.Navigation li:hover ul{
+    display: block;
+}
+
+.close-img{
+    display: none;
+    width: 10px;
+    height: 10px;
+    padding-left: 5px;
+}
+
+.close-img-hover:hover img{
+    display: inline-block;
+    text-decoration: none;
+}
+
+p.vertical{
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+    height: 300px;
+    width:40px;
+}
+
+
+
